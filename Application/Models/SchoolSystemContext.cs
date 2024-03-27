@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace SchoolSystem.Models;
+namespace Application.Models;
 
-public partial class Application : DbContext
+public partial class SchoolSystemContext : DbContext
 {
     public SchoolSystemContext()
     {
